@@ -5,10 +5,6 @@
 
 import numpy as np
 import joblib
-
-
-
-# Load trained model files
 model = joblib.load('svr_model.pkl')
 scaler = joblib.load('scaler.pkl')
 pca = joblib.load('pca.pkl')
